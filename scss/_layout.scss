@@ -203,12 +203,15 @@ strong{
 }
 @include smtablet{
 
-    .header-nav ul{
+    .header-nav 
+   {
+      ul{
         margin:0px;
         justify-content: flex-start;
         li{
             margin-left: 20px;
         }
+      }
     }
     .study-body{
         display: block;
@@ -241,9 +244,12 @@ strong{
             .study-header{
                 margin:20px 20px;
             }
-            .study-content-nav ul{
+            .study-content-nav 
+             {
+              ul{
               display: block;
               padding:0px;
+                }
                 
              }
               .banner-text{
